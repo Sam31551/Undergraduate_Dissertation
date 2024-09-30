@@ -25,7 +25,7 @@ This analysis will consider data from Europe's top 5 leagues to build, optimize 
        - `pip install numpy`
        - 'pip install interpret'
        - `pip install xgboost`
-     	 - `pip install statsmodels`
+       - `pip install statsmodels`
        - `pip install mlxtend`
        - `pip install shap`
       
