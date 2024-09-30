@@ -53,7 +53,7 @@ A K-Means clustering algorithm is run and the cluster assignments are stored in 
 #### 4. Feature Engineering
 A win percentage column is created that represents the team's current perfomance levels. 
 #### 5. Feature Scaling
-Features were sclaed using a MinMax scaler prior to subsequent Machine Learning analysis. 
+Features were scaled using a MinMax scaler prior to subsequent Machine Learning analysis. 
 #### 6. Base Modelling
 The data is split into training and testing sets and the health of these datasets are checked. 
 A range of regression models with their base hyperparameters are run on the data and the results are stored.
