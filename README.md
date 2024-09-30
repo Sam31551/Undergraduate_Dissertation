@@ -6,7 +6,7 @@ This project aims to analyse publicly available data from Europe's top 5 leagues
 
 ## Objectives
 
--**Data Analysis**: Analyse data from Europe’s top 5 football leagues (England, France, Germany, Italy, Spain) to extract relevant patterns.
+-**Exploratory Analysis**: Analyse data from Europe’s top 5 football leagues (England, France, Germany, Italy, Spain) to extract relevant patterns.
 
 -**Predictive Modeling**: Build machine learning models to predict a football team's strength based on a variety of features.
 
