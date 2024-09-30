@@ -34,3 +34,37 @@ Once these packages have been installed all import statements should run.
 ## Data Source
 
 Data was scraped from globally renowned database website in football, 'Transfermarkt'.
+
+## Notebooks
+
+There are 11 python notebooks designed to be run in order. Data defined in early notebooks is carried over for analysis in subsequent ones. 
+
+#### 1. Data Exploration 
+Data from the top 5 leagues in Europe (England, France, Germany, Italy, Spain) is imported. Unique and interesting min/max vales are found per column. Missing values are checked. 
+Data is split by country to ensure consistent structure across regions.
+Duplicated columns are dropped and columns are renamed for more intuitive understanding. 
+#### 2. Data Pre-Processing
+Rows are dropped where target value is null, a team with a whole season's worth of inconsistent data has that season droppped. 
+Missing values where values do not change significantly from row to row i.e. average age, are imputed. 
+#### 3. Exploratory Data Analysis 
+Non-numeric data(i.e. Country, Game outcome) is encoded to allow for subsequent analysis techniques that require numeric data. 
+Data is explored through the visualisation of variables of interest. 
+A K-Means clustering algorithm is run and the cluster assignments are stored in the dataframe. 
+#### 4. Feature Engineering
+
+#### 5. Feature Scaling
+
+#### 6. Base Modelling
+
+#### 7. Feature Selection 
+
+#### 8. Models on best variables
+
+#### 9. Model Optimization 
+
+#### 10. Model Stacking 
+
+#### 11. Data Exploration 
+
+
+
