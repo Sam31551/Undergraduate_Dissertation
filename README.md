@@ -50,19 +50,25 @@ There are 11 python notebooks in the analysis pipeline. The notebooks are intend
    - Data is split by country, unneccessary columns are dropped and column names are standardized. 
 
 #### 2. Data Pre-Processing
-Rows are dropped where target value is null, a team with a whole season's worth of inconsistent data has that season droppped. 
-Missing values where values do not change significantly from row to row i.e. average age, are imputed. 
+   - Teams with consistent missing data are dropped.
+   - Rows with missing target values are dopped.
+   - Missing data in other columns is imputed.
+
 #### 3. Exploratory Data Analysis 
-Non-numeric data(i.e. Country, Game outcome) is encoded to allow for subsequent analysis techniques that require numeric data. 
-Data is explored through the visualisation of variables of interest. 
-A K-Means clustering algorithm is run and the cluster assignments are stored in the dataframe. 
+   - Non-numeric data (i.e. Country, Game outcome) is encoded.
+   - Data is explored through the visualisation of variables of interest.
+   - A K-Means clustering algorithm is run to classify teams into clusters.
+     
 #### 4. Feature Engineering
-A win percentage column is created that represents the team's current perfomance levels. 
+   - A win percentage column is created that represents the team's current perfomance levels.
+      
 #### 5. Feature Scaling
-Features were scaled using a MinMax scaler prior to subsequent Machine Learning analysis. 
+   - Features were scaled using a MinMax scaler prior to subsequent Machine Learning analysis to ensure uniformity.
+     
 #### 6. Base Modelling
-The data is split into training and testing sets and the health of these datasets are checked. 
-A range of regression models with their base hyperparameters are run on the data and the results are stored.
+   - The data is split into training and testing sets and the health of these datasets are checked. 
+   - Various baseline regression models, with their default hyperparameters, are run on the data and the results are stored.
+     
 #### 7. Feature Selection 
 Feature Subsets are found using Best Subset, Forward and Backward selection techniques. Optimum subsets are stored.
 #### 8. Models on best variables
