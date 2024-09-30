@@ -1,9 +1,14 @@
 # Researching publicly available data to identify key characteristics of Europe’s most powerful football teams
 
-## Basic Overview
+## Project Overview
 
-This analysis will consider data from Europe's top 5 leagues to build, optimize and test a predictive model to identify the key characteristics of Europe's most powerful football teams. A team's strength/power is represented by their squad's transfer value. This analysis will provide suggestions that allow clubs to take steps that can increase their squad's strength.
+This project aims to analyse publicly available data from Europe's top 5 leagues to build, optimize and test predictive models to identify the key characteristics of Europe's most powerful football teams. A team's strength is represented by their squad's transfer value. The goal of this analysis is to offer actionable insights that clubs can take to increase their squad's strength and competitiveness.
 
+## Objectives
+-**Data Analysis**: Analyse data from Europe’s top 5 football leagues (England, France, Germany, Italy, Spain).
+-**Predictive Modeling**: Build machine learning models to predict a football team's strength based on a variety of features.
+-**Optimization**: Use model tuning techniques to improve predictive accuracy and assess the most important features contributing to a team's transfer value.
+-**Feature Importance**: Identify the key features that contribute most significantly to a team's strength.
 
 ## Installation and Set-Up
 
@@ -33,16 +38,17 @@ Once these packages have been installed all import statements should run.
 
 ## Data Source
 
-Data was scraped from globally renowned database website in football, 'Transfermarkt'.
+Data was scraped from globally renowned database website in football, 'Transfermarkt'. Transfermarkt provides detailed statistics on player transfer values, team performance, and other relevant metrics.
 
-## Notebooks
+## Project Structure
 
-There are 11 python notebooks designed to be run in order. Data defined in early notebooks is carried over for analysis in subsequent ones. 
+There are 11 python notebooks in the analysis pipeline. The notebooks are intended to be run sequentially, as the outputs from earlier notebooks are required for the subsequent stages.
 
+## Notebooks Overview
 #### 1. Data Exploration 
-Data from the top 5 leagues in Europe (England, France, Germany, Italy, Spain) is imported. Unique and interesting min/max vales are found per column. Missing values are checked. 
-Data is split by country to ensure consistent structure across regions.
-Duplicated columns are dropped and columns are renamed for more intuitive understanding. 
+   - Data from the top 5 leagues in Europe is imported. Basic EDA is performed to identify missing data, anomalies and unique values.
+   - Data is split by country, unneccessary columns are dropped and column names are standardized. 
+
 #### 2. Data Pre-Processing
 Rows are dropped where target value is null, a team with a whole season's worth of inconsistent data has that season droppped. 
 Missing values where values do not change significantly from row to row i.e. average age, are imputed. 
