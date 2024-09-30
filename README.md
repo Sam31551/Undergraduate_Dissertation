@@ -55,7 +55,7 @@ A win percentage column is created that represents the team's current perfomance
 #### 5. Feature Scaling
 Features were sclaed using a MinMax scaler prior to subsequent Machine Learning analysis. 
 #### 6. Base Modelling
-The team is split into training and testing sets and the health of these datasets are checked. 
+The data is split into training and testing sets and the health of these datasets are checked. 
 A range of regression models with their base hyperparameters are run on the data and the results are stored.
 #### 7. Feature Selection 
 
