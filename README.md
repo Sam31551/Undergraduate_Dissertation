@@ -58,14 +58,15 @@ Features were scaled using a MinMax scaler prior to subsequent Machine Learning 
 The data is split into training and testing sets and the health of these datasets are checked. 
 A range of regression models with their base hyperparameters are run on the data and the results are stored.
 #### 7. Feature Selection 
-
+Feature Subsets are found using Best Subset, Forward and Backward selection techniques. Optimum subsets are stored.
 #### 8. Models on best variables
-
+Each of the models from stage 6 are run on the data subsets created in step 7. These results are stored. 
 #### 9. Model Optimization 
-
+Each of the regression models are optimized using Grid Search cross validation with a RepeatedKFold cross-validation approach. 
+Optimum model hyperparameters and model results are stored. 
 #### 10. Model Stacking 
-
-#### 11. Data Exploration 
-
+Each of the optimized models are placed in a stacked model, with Linear Regression as the meta regressor. The stacked model is trained and tested and the results are stored. 
+#### 11. Feature Importance
+Model results from all previous stages are compared and the best performing model is isolated. SHAP is run using this model. SHAP bar, summary, heatmap and feature importance plots are visualised and interpreted. 
 
 
