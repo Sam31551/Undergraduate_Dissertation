@@ -21,9 +21,9 @@ This analysis will consider data from Europe's top 5 leagues to build, optimize 
    - `pip install pandas`
    - `pip install scikit-learn`
    - `pip install matplotlib`
-   - 'pip install plotly-express'
+   - `pip install plotly-express`
    - `pip install numpy`
-   - 'pip install interpret'
+   - `pip install interpret`
    - `pip install xgboost`
    - `pip install statsmodels`
    - `pip install mlxtend`
