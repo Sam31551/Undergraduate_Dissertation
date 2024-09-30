@@ -42,7 +42,7 @@ Once these packages have been installed all import statements should run.
 
 ## Data Source
 
-Data was scraped from globally renowned database website in football, 'Transfermarkt'. Transfermarkt provides detailed statistics on player transfer values, team performance, and other relevant metrics.
+Data was scraped from a globally renowned database website in football, 'Transfermarkt'. Transfermarkt provides detailed statistics on player transfer values, team performance, and other relevant metrics.
 
 ## Project Structure
 
