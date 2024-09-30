@@ -70,15 +70,23 @@ There are 11 python notebooks in the analysis pipeline. The notebooks are intend
    - Various baseline regression models, with their default hyperparameters, are run on the data and the results are stored.
      
 #### 7. Feature Selection 
-Feature Subsets are found using Best Subset, Forward and Backward selection techniques. Optimum subsets are stored.
+   - Feature Subsets are found using Best Subset, Forward and Backward selection techniques.
+   - Optimum subsets from each technique are stored for further analysis.
+     
 #### 8. Models on best variables
-Each of the models from stage 6 are run on the data subsets created in step 7. These results are stored. 
+   - The regression models from the base modelling stage are retrained on the data subsets created in step 7. These results are stored.
+
 #### 9. Model Optimization 
-Each of the regression models are optimized using Grid Search cross validation with a RepeatedKFold cross-validation approach. 
-Optimum model hyperparameters and model results are stored. 
+   - Hyperparameters are optimized using Grid Search and RepeatedKFold cross-validation
+   - Optimum model hyperparameters and model results are stored.
+     
 #### 10. Model Stacking 
-Each of the optimized models are placed in a stacked model, with Linear Regression as the meta regressor. The stacked model is trained and tested and the results are stored. 
+   - Optimized models are placed in a stacked model, with Linear Regression as the meta regressor. 
+   - The stacked model is trained and evaluated.
+     
 #### 11. Feature Importance
-Model results from all previous stages are compared and the best performing model is isolated. SHAP is run using this model. SHAP bar, summary, heatmap and feature importance plots are visualised and interpreted. 
+   - Model results from all previous stages are compared and the best performing model is isolated.
+   - SHAP is run using this model.
+   - SHAP bar, summary, heatmap and feature importance plots are visualised and interpreted. 
 
 
