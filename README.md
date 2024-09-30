@@ -33,4 +33,4 @@ Once these packages have been installed all import statements should run.
 
 ## Data Source
 
-Data was scraped from globally renowned database website in football, 'Trasnfermarkt'.
+Data was scraped from globally renowned database website in football, 'Transfermarkt'.
