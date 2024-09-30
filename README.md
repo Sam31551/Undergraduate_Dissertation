@@ -2,4 +2,4 @@
 
 ## Basic Overview
 
-This analysis will consider data from Europe's top 5 leagues to build, optimize and test a predictive model to identify the key characteristics of Europe's most powerful football teams. A team's strength/power is represented by their squad's transfer value. 
+This analysis will consider data from Europe's top 5 leagues to build, optimize and test a predictive model to identify the key characteristics of Europe's most powerful football teams. A team's strength/power is represented by their squad's transfer value. This analysis will provide suggestions that allow clubs to take steps that can increase their squad's strength.
