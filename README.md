@@ -30,3 +30,7 @@ This analysis will consider data from Europe's top 5 leagues to build, optimize 
    - `pip install shap`
       
 Once these packages have been installed all import statements should run.
+
+## Data Source
+
+Data was scraped from globally renowned database website in football, 'Trasnfermarkt'.
