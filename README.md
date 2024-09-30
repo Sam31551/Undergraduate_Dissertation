@@ -5,9 +5,13 @@
 This project aims to analyse publicly available data from Europe's top 5 leagues to build, optimize and test predictive models to identify the key characteristics of Europe's most powerful football teams. A team's strength is represented by their squad's transfer value. The goal of this analysis is to offer actionable insights that clubs can take to increase their squad's strength and competitiveness.
 
 ## Objectives
+
 -**Data Analysis**: Analyse data from Europe’s top 5 football leagues (England, France, Germany, Italy, Spain).
+
 -**Predictive Modeling**: Build machine learning models to predict a football team's strength based on a variety of features.
+
 -**Optimization**: Use model tuning techniques to improve predictive accuracy and assess the most important features contributing to a team's transfer value.
+
 -**Feature Importance**: Identify the key features that contribute most significantly to a team's strength.
 
 ## Installation and Set-Up
