@@ -18,15 +18,15 @@ This analysis will consider data from Europe's top 5 leagues to build, optimize 
      
 3. **Required Packages**: This analysis requires several Python packages. You can install these packages using pip. The list of packages and their installation commands are provided below.
 
-       - `pip install pandas`
-       - `pip install scikit-learn`
-       - `pip install matplotlib`
-       - 'pip install plotly-express'
-       - `pip install numpy`
-       - 'pip install interpret'
-       - `pip install xgboost`
-       - `pip install statsmodels`
-       - `pip install mlxtend`
-       - `pip install shap`
+   - `pip install pandas`
+   - `pip install scikit-learn`
+   - `pip install matplotlib`
+   - 'pip install plotly-express'
+   - `pip install numpy`
+   - 'pip install interpret'
+   - `pip install xgboost`
+   - `pip install statsmodels`
+   - `pip install mlxtend`
+   - `pip install shap`
       
 Once these packages have been installed all import statements should run.
