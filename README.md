@@ -51,11 +51,12 @@ Non-numeric data(i.e. Country, Game outcome) is encoded to allow for subsequent 
 Data is explored through the visualisation of variables of interest. 
 A K-Means clustering algorithm is run and the cluster assignments are stored in the dataframe. 
 #### 4. Feature Engineering
-
+A win percentage column is created that represents the team's current perfomance levels. 
 #### 5. Feature Scaling
-
+Features were sclaed using a MinMax scaler prior to subsequent Machine Learning analysis. 
 #### 6. Base Modelling
-
+The team is split into training and testing sets and the health of these datasets are checked. 
+A range of regression models with their base hyperparameters are run on the data and the results are stored.
 #### 7. Feature Selection 
 
 #### 8. Models on best variables
